@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.selling-page {
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-evenly; */
+    
+}
+/* 1st avdelning */
+.four-box {
+    
+    height: 60vh; 
+    display: flex;
+    padding: 30px;
+    gap: 20px;
+}
+.selling-box {
+    background-color: rgba(185, 181, 181, 0.14);
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    padding: 30px;
+}
+.selling-box:hover {
+    background-color: rgba(185, 181, 181, 0.579) ;
+}
+.selling-box p {
+        margin-top: 5px;
+}
+.selling-box h2, .selling-box img {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+    
+/* 2nd avdeling */
+.selling-box img{
+    height: 45%;
+    margin-left: auto;
+    
+}
+.selling-pictures {
+    display: flex;
+    height: 60vh;
+}
+.picture-boxes {
+    margin: 30px;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+}
+.picture-boxes2 {
+    margin: 30px;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+}
+.volvo { 
+    flex: 1;
+    height: 400px;
+    width: 100%;
+}
+.picture-boxes h3 {
+    padding: 15px 15px 15px 0px;
+}
+.picture-boxes p {
+    font-weight: 500;
+    padding: 5px 15px 0px 0px;
+}
+.picture-boxes2 h3 {
+    padding: 15px 15px 15px 0px;
+}
+.picture-boxes2 p {
+    font-weight: 500;
+    padding: 5px 15px 15px 0px;
+}
+.picture-boxes a {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 15px;
+        align-self: flex-start;
+        text-decoration: none;
+        
+}
+.picture-boxes2 a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 24px;
+    align-self: flex-start;
+}
+a:hover {
+    text-decoration: underline;
+}
+
+
