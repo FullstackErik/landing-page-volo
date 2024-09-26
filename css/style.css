@@ -1,0 +1,99 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+body {
+    color: black;
+    background-color: rgb(255, 255, 255);
+    font-family: "Roboto";
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+}
+h2 {
+    font-size: 30px;
+}
+.list-container {
+    /* background-color: grey; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* width: 60%; */
+}
+
+h3 {
+    margin-bottom: 20px;
+    font-size: 20px;
+    text-align: center;
+}
+.help-support {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.list-container li {
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+.help-and-support {
+    /* background-color: blue; */
+    width: 300px;
+}
+
+.kontakta-oss-div {
+    /* background-color: red; */
+    width: 300px;
+}
+
+.volvo-apps {
+    /* background-color: chocolate; */
+    width: 300px;
+}
+
+.kontakta-oss {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.appar {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+}
+
+img {
+    width: 60px;
+    height: auto;
+    border-radius: 50%;
+}
+
+.uppgifter ul {
+    display: flex;
+    gap: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.country {
+    font-size: 30px;
+}
+
+.ikoner {
+    display: flex;
+    justify-content: space-between;
+    width: 40%;
+}
